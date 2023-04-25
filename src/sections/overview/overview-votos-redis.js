@@ -65,7 +65,7 @@ export const OverviewVotosRedis = (props) => {
   useEffect(() => {
 
     const fetchData = async () => {
-      var response = await fetch('http://localhost:5000/redis');
+      var response = await fetch('http://http://35.226.8.72:3000/redis');
       var data = await response.json();
       setRedis(data.data)   
     };

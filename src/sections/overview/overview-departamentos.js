@@ -16,7 +16,7 @@ export const OverviewDepartamentos = (props) => {
     const fetchData = async () => {
 
       // Obtener top 3 de departamentos con mas votos para presidente
-      var response = await fetch('http://localhost:5000/departamento');
+      var response = await fetch('http://http://35.226.8.72:3000/departamento');
       var data = await response.json();
       var dep_data = data.data
 

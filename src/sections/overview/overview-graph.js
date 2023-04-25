@@ -56,7 +56,7 @@ const useChartOptions = (labels) => {
 export const OverviewGraph = (props) => {
   const {sx, title, url} = props;
   
-  // const [state, setState] = useState({'state':0, 'titulo':"Votos por partido",'url':"http://localhost:5000/votos-muni"})
+  // const [state, setState] = useState({'state':0, 'titulo':"Votos por partido",'url':"http://http://35.226.8.72:3000/votos-muni"})
   const [graph, setGraph] = useState({'labels':[],'values':[]})
 
 

@@ -57,7 +57,7 @@ export const OverviewListaProcesos = (props) => {
   useEffect(() => {
 
     const fetchData = async () => {
-      var response = await fetch('http://localhost:5000/all');
+      var response = await fetch('http://http://35.226.8.72:3000/all');
       var data = await response.json();
       setMysql(data.data)   
     };

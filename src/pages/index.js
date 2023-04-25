@@ -70,7 +70,7 @@ export default function Home() {
           >
             <OverviewGraph
               title={"Votos por Partido"}
-              url={"http://localhost:5000/votos-partido"}
+              url={"http://http://35.226.8.72:3000/votos-partido"}
               sx={{ height: '100%', border: '1px solid #A9A9A9'}}
             />
           </Grid>
@@ -82,7 +82,7 @@ export default function Home() {
           >
             <OverviewGraph
               title={"Votos por Municipio"}
-              url={"http://localhost:5000/votos-muni"}
+              url={"http://http://35.226.8.72:3000/votos-muni"}
               sx={{ height: '100%', border: '1px solid #A9A9A9'}}
             />
           </Grid>
@@ -95,7 +95,7 @@ export default function Home() {
           >
             <OverviewGraph
               title={"Votos por Departamento"}
-              url={"http://localhost:5000/votos-depa"}
+              url={"http://http://35.226.8.72:3000/votos-depa"}
               sx={{ height: '100%', border: '1px solid #A9A9A9'}}
             />
           </Grid>

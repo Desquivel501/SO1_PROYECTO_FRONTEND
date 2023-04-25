@@ -132,7 +132,7 @@ export const OverviewSedes = (props) => {
 
     const fetchData = async () => {
 
-      const response = await fetch("http://localhost:5000/sedes");
+      const response = await fetch("http://http://35.226.8.72:3000/sedes");
       const data = await response.json();
 
       setSeries([{ data: data.data }])
