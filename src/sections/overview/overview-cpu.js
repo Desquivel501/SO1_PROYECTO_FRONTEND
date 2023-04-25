@@ -64,7 +64,7 @@ const useChartOptions = (labels) => {
 export const OverviewCpu = (props) => {
   const {sx, title} = props;
   
-  const [state, setState] = useState({'state':0, 'titulo':"Votos por partido",'url':"http://http://35.226.8.72:3000/votos-partido"})
+  const [state, setState] = useState({'state':0, 'titulo':"Votos por partido",'url':"https://34.68.198.104:3000/votos-partido"})
   const [graph, setGraph] = useState({'labels':[],'values':[]})
 
 
@@ -150,9 +150,9 @@ export const OverviewCpu = (props) => {
           }}
         >
           <ButtonGroup variant="contained" aria-label="outlined primary button group" >
-            <Button onClick={() => setState({'state':0, 'titulo':"Votos por Partido",'url':"http://http://35.226.8.72:3000/votos-partido"})}>Por Partido</Button>
-            <Button onClick={() => setState({'state':0, 'titulo':"Votos por Municipio",'url':"http://http://35.226.8.72:3000/votos-muni"})}>Por Municipio</Button>
-            <Button onClick={() => setState({'state':0, 'titulo':"Votos por Departamento",'url':"http://http://35.226.8.72:3000/votos-partido"})}>Por Departamento</Button>
+            <Button onClick={() => setState({'state':0, 'titulo':"Votos por Partido",'url':"https://34.68.198.104:3000/votos-partido"})}>Por Partido</Button>
+            <Button onClick={() => setState({'state':0, 'titulo':"Votos por Municipio",'url':"https://34.68.198.104:3000/votos-muni"})}>Por Municipio</Button>
+            <Button onClick={() => setState({'state':0, 'titulo':"Votos por Departamento",'url':"https://34.68.198.104:3000/votos-partido"})}>Por Departamento</Button>
           </ButtonGroup>
         </Box>
       </Grid>
