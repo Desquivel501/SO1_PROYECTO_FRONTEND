@@ -47,7 +47,7 @@ export default function Home() {
   useEffect(() => {
     const interval = setInterval(() => {
 
-      fetch('https://34.68.198.104:3000/all', {
+      fetch('https://35.226.8.72:3000/all', {
           method: 'GET',
           headers: {
               'Content-Type':'application/json',
@@ -59,7 +59,7 @@ export default function Home() {
             setMysql(data.data)               
           }).catch(console.error); 
 
-      fetch('https://34.68.198.104:3000/departamento', {
+      fetch('https://35.226.8.72:3000/departamento', {
         method: 'GET',
         headers: {
             'Content-Type':'application/json',
@@ -76,7 +76,7 @@ export default function Home() {
 
         }).catch(console.error); 
 
-      fetch('https://34.68.198.104:3000/votos-partido', {
+      fetch('https://35.226.8.72:3000/votos-partido', {
         method: 'GET',
         headers: {
             'Content-Type':'application/json',
@@ -99,7 +99,7 @@ export default function Home() {
           
         }).catch(console.error); 
 
-      fetch('https://34.68.198.104:3000/votos-muni', {
+      fetch('https://35.226.8.72:3000/votos-muni', {
         method: 'GET',
         headers: {
             'Content-Type':'application/json',
@@ -120,7 +120,7 @@ export default function Home() {
         }).catch(console.error); 
       
 
-      // fetch('https://34.68.198.104:3000/votos-partido', {
+      // fetch('https://35.226.8.72:3000/votos-partido', {
       //   method: 'GET',
       //   headers: {
       //       'Content-Type':'application/json',

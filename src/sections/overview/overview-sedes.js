@@ -132,7 +132,7 @@ export const OverviewSedes = (props) => {
 
     const fetchData = async () => {
 
-      const response = await fetch("https://34.68.198.104:3000/sedes");
+      const response = await fetch("https://35.226.8.72:3000/sedes");
       const data = await response.json();
 
       setSeries([{ data: data.data }])
